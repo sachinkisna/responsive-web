@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--Universal Rules Style--*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*--Header Part Style --*/
+header {
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/header-bg.png);
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.learn-btn {
+    padding: 8px 15px;
+    background-color: chocolate;
+    border-radius: 30px;
+    color: white;
+}
+
+/*--Nav BAr Style --*/
+.navbar{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+
+}
+
+.nav-links{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.nav-links li{
+
+    margin: 0px 30px;
+
+
+}
+
+.nav-links li a{
+
+    color: white;
+
+}.nav-links li a:hover{
+
+    color: rgb(241, 2, 2);
+
+}.nav-links li a:active{
+
+    color: rgb(241, 2, 2);
+
+}.nav-links li .actv{
+
+    color: rgb(241, 2, 2);
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+
+/*-- --*/
+
+/*-- Mobile Responsive --*/
